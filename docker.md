@@ -11,4 +11,7 @@
 # ---------------- Images ----------------
 - **docker pull nom_image** : télécharger une image
 - **docker images** : afficher la liste des images
-- **docker rmi nom_image** : supprimer une image
+- **docker rmi nom_image** : supprimer une image (sauf si le container est en cours d'exécution)
+
+# ---------------- Mode intéractif ----------------
+- **docker run -it ubuntu bash** : utiliser le bash d'ubuntu
